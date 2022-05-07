@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 3ab2d35328ef51a43b5476303cb27e10
+guid: 208d9f22ec6199444b93c9f069bab83a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -807730002916283389
-    second: WindowBase
+      213: 7186491108860216379
+    second: silver_left_0
   - first:
-      213: 181085840782162805
-    second: WindowBackground
+      213: 1307200164614085061
+    second: silver_left_1
   - first:
-      213: 1677025504529905249
-    second: InventorySlot
+      213: -8394620902186016453
+    second: silver_left_2
   - first:
-      213: -5729794014814720789
-    second: Decor
+      213: -3837294152405493573
+    second: silver_left_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -55,10 +55,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 512
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,76 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WindowBase
+      name: silver_left_0
       rect:
         serializedVersion: 2
-        x: 231
-        y: 78
-        width: 137
-        height: 137
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 8, y: 8, z: 8, w: 8}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30cefb587dd5ac4f0800000000000000
-      internalID: -807730002916283389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WindowBackground
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 82
-        width: 129
-        height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 19, y: 20, z: 11, w: 41}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57b7caddc98538200800000000000000
-      internalID: 181085840782162805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InventorySlot
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 192
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 3, y: 3, z: 3, w: 3}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16676c4afcdf54710800000000000000
-      internalID: 1677025504529905249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Decor
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 152
-        width: 44
-        height: 63
+        x: 10
+        y: 2
+        width: 25
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,8 +117,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bec2fc683beab70b0800000000000000
-      internalID: -5729794014814720789
+      spriteID: b34cd1d769b8bb360800000000000000
+      internalID: 7186491108860216379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_left_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2
+        width: 25
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c99726bf9b142210800000000000000
+      internalID: 1307200164614085061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_left_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 25
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31222d14c0508b80800000000000000
+      internalID: -8394620902186016453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_left_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2
+        width: 25
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8df2b9c413fbac0800000000000000
+      internalID: -3837294152405493573
       vertices: []
       indices: 
       edges: []

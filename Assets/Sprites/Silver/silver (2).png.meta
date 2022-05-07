@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 3ab2d35328ef51a43b5476303cb27e10
+guid: eb89800b2fc0c1942a3d18f6a057fe72
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -807730002916283389
-    second: WindowBase
+      213: -1655427835417222010
+    second: silver (2)_0
   - first:
-      213: 181085840782162805
-    second: WindowBackground
+      213: 3657818211831385345
+    second: silver (2)_1
   - first:
-      213: 1677025504529905249
-    second: InventorySlot
+      213: 8322226445722891494
+    second: silver (2)_2
   - first:
-      213: -5729794014814720789
-    second: Decor
+      213: -4278480432174856011
+    second: silver (2)_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -55,10 +55,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 512
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,75 +103,33 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WindowBase
+      name: silver (2)_0
       rect:
         serializedVersion: 2
-        x: 231
-        y: 78
-        width: 137
-        height: 137
+        x: 10
+        y: 2
+        width: 25
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 8, y: 8, z: 8, w: 8}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30cefb587dd5ac4f0800000000000000
-      internalID: -807730002916283389
+      spriteID: 684a9ae872db609e0800000000000000
+      internalID: -1655427835417222010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WindowBackground
+      name: silver (2)_1
       rect:
         serializedVersion: 2
-        x: 55
-        y: 82
-        width: 129
-        height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 19, y: 20, z: 11, w: 41}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57b7caddc98538200800000000000000
-      internalID: 181085840782162805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InventorySlot
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 192
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 3, y: 3, z: 3, w: 3}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16676c4afcdf54710800000000000000
-      internalID: 1677025504529905249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Decor
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 152
-        width: 44
+        x: 43
+        y: 1
+        width: 25
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -180,8 +138,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bec2fc683beab70b0800000000000000
-      internalID: -5729794014814720789
+      spriteID: 10d0a21a84e23c230800000000000000
+      internalID: 3657818211831385345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver (2)_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 25
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4bcadfbdc7e7370800000000000000
+      internalID: 8322226445722891494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver (2)_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2
+        width: 25
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b802cd17b8cf94c0800000000000000
+      internalID: -4278480432174856011
       vertices: []
       indices: 
       edges: []

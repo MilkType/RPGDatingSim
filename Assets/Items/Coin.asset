@@ -10,5 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 858c2d519d8039442b2f0a0a98fd4ff2, type: 3}
-  m_Name: Chair
+  m_Name: Coin
   m_EditorClassIdentifier: 
+  Name: Coin
+  Description: 
+  Stackable: 1
+  Icon: {fileID: -1267909512708224344, guid: 3fdbbe0d2b051b141b3a62c6f52a93f7, type: 3}

@@ -9,6 +9,9 @@ public class PickUpItem : MonoBehaviour
     [SerializeField] float pickUpDistance = 1.5f;
     [SerializeField] float despawnTime = 10f;
 
+    public Item item;
+    public int count = 0;
+
     private void Start()
     {
         player = GameManager.instance.player.transform;
@@ -25,8 +28,16 @@ public class PickUpItem : MonoBehaviour
             return;
         }
         transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-        if (distance < 0.1f)
+        if (distance < 0.2f)
         {
+            if (GameManager.instance.silverInventory != null)
+            {
+                GameManager.instance.silverInventory.Add(item, count);
+            }
+            else
+            {
+                Debug.LogWarning("No inventory selected in game manager.");
+            }
             Destroy(gameObject);
         }
     }

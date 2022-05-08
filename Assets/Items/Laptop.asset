@@ -12,3 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 858c2d519d8039442b2f0a0a98fd4ff2, type: 3}
   m_Name: Laptop
   m_EditorClassIdentifier: 
+  Name: Laptop
+  Description: 
+  Stackable: 0
+  Icon: {fileID: -1740814349690443056, guid: fe433dd7c54f18a49b49859c9c8d9bfb, type: 3}

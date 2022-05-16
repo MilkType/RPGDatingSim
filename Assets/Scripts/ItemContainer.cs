@@ -28,6 +28,7 @@ public class ItemSlot
     {
         item = null;
         count = 0;
+        
     }
 
 

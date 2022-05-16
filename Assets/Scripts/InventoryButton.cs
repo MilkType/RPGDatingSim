@@ -44,8 +44,8 @@ public class InventoryButton : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("You clicked an inventory slot!");
         ItemContainer inventory = GameManager.instance.silverInventory;
         GameManager.instance.moveItemController.OnClick(inventory.slots[myIndex]);
+        transform.parent.GetComponent<InventoryPanel>().Show(); 
     }
 }

@@ -11,6 +11,8 @@ public class InventoryController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             panel.SetActive(!panel.activeInHierarchy);
+            Time.timeScale = 1 - Time.timeScale;
+            Debug.Log("New timescale is: " + Time.timeScale);
         }
     }
 }

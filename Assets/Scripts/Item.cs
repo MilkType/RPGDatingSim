@@ -9,6 +9,7 @@ public class Item : ScriptableObject
     public string Name;
     public string Description;
     public bool Stackable;
+    public int MaxStack;
     public Sprite Icon;
 }
 

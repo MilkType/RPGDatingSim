@@ -49,7 +49,7 @@ public class ItemContainer : ScriptableObject
             }
             else
             {
-                itemSlot = slots.Find(x =>x.item == null);
+                itemSlot = slots.Find(x => x.item == null);
                 if (itemSlot != null)
                 {
                     itemSlot.item = item;

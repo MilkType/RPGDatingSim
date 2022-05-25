@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 using UnityEngine.UI;
 
 
@@ -18,7 +18,7 @@ public class DayTimeController : MonoBehaviour
     [SerializeField] float timeScale = 60f;
     
     [SerializeField] Text text;
-    [SerializeField] Light2D globalLight;
+    [SerializeField] UnityEngine.Rendering.Universal.Light2D globalLight;
     private int days;
 
     float Hours
